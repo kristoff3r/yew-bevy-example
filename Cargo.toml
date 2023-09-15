@@ -1,0 +1,13 @@
+[package]
+name = "yew-bevy-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = "0.11.2"
+gloo = "0.10.0"
+js-sys = "0.3.64"
+yew = { version = "0.20.0", features = ["csr"] }
+wasm-bindgen = "=0.2.87"
+void = "1.0.2"
+crossbeam-channel = "0.5.8"
